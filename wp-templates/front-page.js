@@ -52,7 +52,7 @@ export default function Component() {
         <EntryHeader image={mainBanner} />
         <div className="container">
           <section className="hero text-center">
-            <Heading className={styles.heading + 'tailwind-class'} level="h1">
+            <Heading className={styles.heading + "tailwind-class"} level="h1">
               This is a test headless site
             </Heading>
             <p className={styles.description}>
