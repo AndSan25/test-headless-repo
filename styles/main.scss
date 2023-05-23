@@ -10,6 +10,11 @@
 @import 'Utility';
 @import 'Gutenberg';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "./tailwindcss/custom-base-styles.css";
+
+@import "tailwindcss/components";
+@import "./tailwindcss/custom-components.css";
+
+@import "tailwindcss/utilities";
+@import "./tailwindcss/custom-utilities.css";
